@@ -19,5 +19,6 @@
     "passport-google-oauth": "^1.0.0",
     "passport-google-oauth20": "^1.0.0",
     "save": "^2.3.3"
+    
   }
 }
