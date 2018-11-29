@@ -22,7 +22,8 @@ User.findById(id).then(user =>{
 passport.use(new GoogleStrategy({
     clientID: Keys.googleClientID,
     clientSecret: Keys.googleClientSecret,
-    callbackURL: '/auth/google/callback'
+    callbackURL: '/auth/google/callback',
+    proxy: true
 },
 (accessToken, refreshToken, profile, done) => {
     //search for collection
